@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAlpha Recipe Paper</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <div class="container"> 
+        <header>
+            <div class="navContainer">
+                <nav>
+                    <ul id="navList">
+                        <li>
+                            <p id="navLogo">CodeAlpha Recipe Book</p>
+                        </li>
+                        <li>
+                            <div id="navItems">
+                                <a href="#">Home</a>
+                                <a href="#">Contact</a>
+                                <a href="#">About</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="contentBox">
+                <section>
+                    <div class="item">
+                        <div class="leftBox">
+                            <h2>Lasagna</h2>
+                            <div>
+                                <h2>Ingredients</h2>
+                                <ul class="ingBox">
+                                    <li>Pasta Sheets</li>
+                                    <li>Meat Sauce</li>
+                                    <li>Cheese</li>
+                                    <li>Bechamel Sauce</li>
+                                </ul>
+                            </div>
+                            
+                            <div>
+                                <h2>Recipe</h2>
+                                <ol class="recipeBox">
+                                    <li>Layer pasta, sauce, cheese.</li>
+                                    <li>Repeat for depth.</li>
+                                    <li>Bake until golden.</li>
+                                    <li>Slice, serve, savor!</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="rightBox">
+                            <img 
+                                src="pic/las.jpg"
+                            />
+                            <div class="overlay">
+                                <span> Click here to Buy</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="item">
+                        <div class="leftBox">
+                            <h2>Pasta</h2>
+                            <div>
+                                <h2>Ingredients</h2>
+                                <ul>
+                                    <li>Pasta</li>
+                                    <li>Olive oil</li>
+                                    <li>Garlic and Parmesan</li>
+                                    <li>Pasta Sauce</li>
+                                </ul>
+                            </div>
+                            
+                            <div>
+                                <h2>Recipe</h2>
+                                <ol>
+                                    <li>Boil pasta until al dente.</li>
+                                    <li>Sauté garlic in olive oil.</li>
+                                    <li>Toss pasta in the pan.</li>
+                                    <li>Sprinkle with Parmesan, serve.</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="rightBox">
+                            <img 
+                                src="pic/pasta.jpg"
+                            />
+                        </div>
+                    </div>
+                </section>
+        </main>
+
+        <footer>
+           <div class="footerBox">
+                <p>
+                    Receipe  &copy; CodeAlpha
+                </p>
+           </div>
+        </footer>
+
+
+    </div>
+
+</body>
+</html>
