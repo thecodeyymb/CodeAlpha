@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>CodeAlpha Issue Tracker</title>
+    <link rel="stylesheet" href="s3.css" />
+  </head>
+  <body>
+    <h2>CodeAlpha Issue Tracker</h2>
+    <div class="container">
+      <h4>Pending Issues</h4>
+      <h1 id="balance">3</h1>
+      <div class="inc-exp-container">
+        <div>
+          <h4>Solved Issues</h4>
+          <p id="money-plus" class="money-plus">
+            24
+          </p>
+        </div>
+        <div>
+          <h4>In-Progress</h4>
+          <p id="money-minus" class="money-minus">
+            2
+          </p>
+        </div>
+      </div>
+
+      <h3>History</h3>
+      <ul id="list" class="list">
+      </ul>
+      <h3>Add New Issue</h3>
+      <form id="form">
+          <div class="form-control">
+              <label for="text">Text</label>
+              <input type="text" id="text" placeholder="Enter Text...."/>
+          </div>
+          <div class="form-control">
+              <label for="amount">Issues <br> </label>
+              <input type="number" id="amount" placeholder="Enter New Issue..."> 
+          </div>
+          <button class="btn">All Issues</button>
+      </form>
+    </div>
+    <script src="scp.js"></script>
+  </body>
+</html>
